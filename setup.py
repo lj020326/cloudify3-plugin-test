@@ -9,7 +9,7 @@ setup(
     author='Lee',
     author_email='lee.james.johnson@gmail.com',
     packages=[
-        'lib'
+        'plugin'
     ],
     license='LICENSE',
     description='Playground plugins',
