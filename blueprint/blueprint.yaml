@@ -16,5 +16,5 @@ node_types:
     interfaces:
       cloudify.interfaces.lifecycle:
         create:
-          implementation: lee.plugin.echo.create
+          implementation: lee--plugin.plugin.echo.create
 
