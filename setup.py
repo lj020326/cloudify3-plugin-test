@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     zip_safe=True,
-    name='cloudify-lee-plugin',
+    name='test-echo-plugin',
     version='1.0',
     author='Lee',
     author_email='lee.james.johnson@gmail.com',
