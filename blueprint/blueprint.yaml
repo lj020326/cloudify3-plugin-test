@@ -9,12 +9,12 @@ imports:
 
 node_templates:
   mock:
-    type: lee.Echo
+    type: myplugin.Echo
 node_types:
-  lee.Echo:
+  myplugin.Echo:
     derived_from: cloudify.nodes.Root
     interfaces:
       cloudify.interfaces.lifecycle:
         create:
-          implementation: lee-plugin.plugin.echo.create
+          implementation: test-echo-plugin.plugin.echo.create
 
