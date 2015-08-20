@@ -70,9 +70,15 @@ class CloudifyContextTest(testtools.TestCase):
         self.assertTrue(os.path.exists(resource_path))
 
     def test_download_resource_to_non_writable_location(self):
-        self.assertRaises(IOError, self.context.download_resource,
-                          'for_test.log',
-                          '/non-existing-folder')
+#         self.assertRaises(IOError, self.context.download_resource,
+#                           'for_test.log',
+#                           '/non-existing-folder')
+        target_path = '/non-existing-folder'
+        resource_path = self.context.download_resource(
+            'for_test.log',
+            target_path)
+        self.assertEqual(target_path, resource_path)
+        self.assertTrue(os.path.exists(resource_path))
 
     def test_get_non_existing_resource(self):
         self.assertRaises(exceptions.HttpException, self.context.get_resource,

@@ -1,7 +1,7 @@
 plugins:
     # Name could be anything, this name is what appears on the beginning of operation
     # mappings.
-    plugin_name:
+    test-echo-plugin:
         # Could be 'central_deployment_agent' or 'host_agent'.
         # If 'central_deployment_agent', this plugin will be executed on the
         # deployment dedicated agent, other wise it will be executed on the host agent.

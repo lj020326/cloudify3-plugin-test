@@ -27,7 +27,7 @@ class TestPlugin(unittest.TestCase):
     def setUp(self):
         # build blueprint path
         blueprint_path = os.path.join(os.path.dirname(__file__),
-                                      'blueprint', 'blueprint.yaml')
+                                      'blueprint', 'bp_my_task_test.yaml')
 
         # inject input from test
         inputs = {

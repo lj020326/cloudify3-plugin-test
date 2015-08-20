@@ -12,8 +12,12 @@ setup(
         'plugin'
     ],
     license='LICENSE',
-    description='Playground plugins',
+    description='Test Echo plugin',
     install_requires=[
-        'cloudify-plugins-common>=3.1'
+        "cloudify-plugins-common>=3.3a3"
+    ],
+    test_requires=[
+        "cloudify-dsl-parser>=3.3a3",
+        "nose"
     ]
 )
