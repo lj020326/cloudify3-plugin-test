@@ -3,7 +3,7 @@ from cloudify import ctx
 from cloudify.decorators import operation
 
 @operation
-def create(ctx, some_property, **kwargs ):
+def create(some_property, **kwargs ):
     msg = 'ECHO PLUGIN: create running'
     ctx.logger.info(msg)
     # setting node instance runtime property
