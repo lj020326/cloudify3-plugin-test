@@ -17,8 +17,6 @@
 import os
 import unittest
 
-from cloudify import context
-
 from cloudify.workflows import local
 
 
