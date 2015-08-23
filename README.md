@@ -19,7 +19,8 @@ pip install -r dev-requirements.txt
 
 Then run the tests using nose
 
-To run an integration/deploy test, then run the following commands from the blueprints directory (assuming you have a boostrapped manager already running):
+To run an integration/deploy test, then run the following commands 
+from the blueprint directory (assuming you have a boostrapped manager already running):
 
 cfy blueprints upload -b test-echo-plugin -p blueprint.yaml
 
