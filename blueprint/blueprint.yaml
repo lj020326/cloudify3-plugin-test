@@ -19,9 +19,6 @@ node_types:
         create:
           implementation: test-echo-plugin.plugin.echo.create
           inputs:
-              # my_task accepts a single property named
-              # some property. Here we inject this property
-              # from the input provided by the test
-              # (or 'default_test_input' if no input was provided)
-              some_property: "installation testing123"
+            some_property:
+              default: "installation testing123"
 
