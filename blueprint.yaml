@@ -5,7 +5,8 @@ tosca_definitions_version: cloudify_dsl_1_0
 
 imports:
   - http://www.getcloudify.org/spec/cloudify/3.2/types.yaml
-  - https://raw.githubusercontent.com/lj020326/cloudify3-plugin-test/master/plugin.yaml
+#  - https://raw.githubusercontent.com/lj020326/cloudify3-plugin-test/master/plugin.yaml
+  - plugin.yaml
 
 node_templates:
   mock:
