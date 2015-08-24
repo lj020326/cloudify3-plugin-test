@@ -54,6 +54,9 @@ coverage.xml
 # Django stuff:
 *.log
 
+## except we want one log file used in test cases:
+!for_test.log #Except for_test.log
+
 # Sphinx documentation
 docs/_build/
 
