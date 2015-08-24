@@ -53,6 +53,8 @@ coverage.xml
 
 # Django stuff:
 *.log
+## exception for testing with log
+!for_test.log  ## need this log file for some test cases
 
 ## except we want one log file used in test cases:
 !for_test.log #Except for_test.log
