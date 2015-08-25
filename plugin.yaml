@@ -5,6 +5,6 @@
 plugins:
   test-echo-plugin:
     executor: central_deployment_agent
-    source: https://github.com/lj020326/cloudify3-plugin-test/archive/master.zip
-#    source: plugin
+#    source: https://github.com/lj020326/cloudify3-plugin-test/archive/master.zip
+    source: plugin
  
