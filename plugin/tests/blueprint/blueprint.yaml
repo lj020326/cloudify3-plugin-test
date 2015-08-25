@@ -9,8 +9,8 @@ imports:
     # instead.
 #    - http://www.getcloudify.org/spec/cloudify/3.3m3/types.yaml
 #    - http://www.getcloudify.org/spec/cloudify/3.2/types.yaml
-    - cloudify/3.2/types.yaml
-    # relative import of plugin.yaml that resides in the blueprint directory
+    # local import of types and plugins that resides in the blueprint directory
+    - types/cloudify/3.2/types.yaml
     - test_plugin.yaml
 
 inputs:
